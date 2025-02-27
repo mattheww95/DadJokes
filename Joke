@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+Joke=$(curl --silent https://dadjokes.online/ | jq '.Joke | "\(.Opener)  \(.Punchline)"')
+echo $Joke
