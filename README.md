@@ -1,0 +1,2 @@
+# DadJokes
+A wrapper around dad jokes online. https://dadjokes.online/
