@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+JOKE=$(curl --silent https://dadjokes.online/ | jq '.Joke | "\(.Opener)  \(.Punchline)"') 
+JOKE=${JOKE//[<>:\\#%|]/} # strip charactars
+echo "${JOKE:1:${#JOKE}-2}" # Strip the first and last wrapping quotation marks
