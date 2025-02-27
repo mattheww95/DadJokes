@@ -7,5 +7,5 @@ Requires:
   - Curl
   - bash
 
-Example Command: `Joke`
+Example Command: `joke`
 Response: `Why was the belt arrested? Because it held up some pants!`
