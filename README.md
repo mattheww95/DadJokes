@@ -6,3 +6,6 @@ Requires:
   - jq 
   - Curl
   - bash
+
+Example Command: `Joke`
+Response: `Why was the belt arrested? Because it held up some pants!`
